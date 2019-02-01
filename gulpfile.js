@@ -7,3 +7,9 @@ gulp.task('sass', function () {
     .pipe(sass())
     .pipe(gulp.dest('css'))
 })
+
+id -un
+abhaysharma
+sudo chown -R abhaysharma /usr/local/lib
+sudo chown -R abhaysharma /usr/local/bin
+sudo chown -R abhaysharma /Users/abhaysharma
